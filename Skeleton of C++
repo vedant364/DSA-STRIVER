@@ -1,0 +1,44 @@
+#include<iostream>
+
+//alternative use "below code" to import all libraries in c++
+#include<bits/stdc++.h>
+
+
+
+
+int main(){
+
+    //prints a line
+    std::cout << "Hey Striver!" << "\n"; // \n is faster
+
+    //alternatively
+    std::cout << "Hey Striver!" << std::endl;
+
+
+    return 0;
+
+}
+
+
+//std:: can be eliminated by using "using namespace std;" statement now all 
+the function will have this as their default prefix
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+    //prints a line
+    cout << "Hey Striver!" << "\n"; // \n is faster
+
+    //alternatively
+    cout << "Hey Striver!" << endl <<"hey striver";
+
+
+    return 0;
+
+}
+
+
+
